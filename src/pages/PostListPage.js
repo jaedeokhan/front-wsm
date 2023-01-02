@@ -42,7 +42,7 @@ const PostListPage = () => {
             </Stack>
           </Container>
         </Box>
-        <Container sx={{ py: 8 }} maxWidth="md">
+        <Container sx={{ py: 8 }} maxWidth="lg">
           <PostList />
         </Container>
       </main>

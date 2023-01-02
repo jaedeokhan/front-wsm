@@ -89,7 +89,7 @@ const Navigation = () => {
                             <AddCircle />
                         </Badge>
                     </IconButton>
-                    <IconButton component={RouterLink} to="/posts"
+                    <IconButton component={RouterLink} to="/auth/api/chat/:chatRoomId" 
                         size="large"
                         aria-label="show 17 new notifications"
                         color="inherit"
